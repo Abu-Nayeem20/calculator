@@ -1,0 +1,118 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+img{
+	width: 100%;
+	height: auto;
+}
+body{
+	background-image: url(img/10.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.main{
+	width: 350px;
+	height: 550px;
+	background-color: #000;
+	margin: auto;
+	border :2px solid #000;
+	margin-top: 100px;
+	border-radius: 40px 40px 10px 10px;
+}
+.text{
+	width: 300px;
+	margin: auto;
+	background-color: #875F9A;
+	border-radius: 20px;
+}
+.text h2{
+	text-align: center;
+	color: #19B5FE;
+	padding: 2px 0 4px;
+	font-family: 'Redressed', cursive;
+	margin: 8px 0;
+}
+
+.btn-frm{
+	margin: auto;
+	background-color: #000;
+}
+.show-area{
+	width: 300px;
+	height: 80px;
+	margin-left: 20px;
+	border: 1px solid orange;
+	border-radius: 20px;
+	font-size: 30px;
+	text-align: right;
+	background-color: #fff;
+}
+.digit-btn{
+	margin: 8px 10px 0;
+	text-align: center;
+}
+.cal{
+	font-size: 25px;
+	width: 60px;
+	height: 60px;
+	padding: 3px;
+	margin: 7px;
+	transition: 0.5s;
+	border: 2px solid #000;
+	border-radius: 50%;
+}
+.cal:hover{
+	background-color: #F9690E;
+	transform: rotateX(45deg);
+	border: 0;
+}
+.call{
+	font-size: 20px;
+	width: 140px;
+	padding: 5px;
+	margin: 3px;
+	border: 3px solid #000;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.call:hover{
+	background-color: #BF55EC;
+	
+}
+.sml-img{
+	position: relative;
+}
+.sml-img-left{
+	width: 50px;
+	position: absolute;
+	top: -30px;
+	left: 20px;
+}
+.sml-img-right{
+	width: 50px;
+	position: absolute;
+	top: -30px;
+	right: 20px;
+}
+.cal-footer{
+	margin: 50px 0 100px;
+}
+.cal-footer-txt h1{
+	text-align: center;
+	color: #006442;
+}
+.cal-footer-link{
+	text-align: center;
+}
+.cal-footer-link a{
+	margin: 0 5px;
+}
+.cal-footer-link a i{
+	color: #000;
+	font-size: 30px;
+	transition: .3s;
+}
+.cal-footer-link a i:hover{
+	color: #fff;
+}

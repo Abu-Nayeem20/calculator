@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale = 1">
+	<title> Calculator </title>
+
+     <!--=======Favicon========-->
+
+     <link rel="icon" href="img/favicon.png">
+
+     <!--=======Main Css========-->
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+      <!--=======Responsive Css========-->
+
+      <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+<body>
+	<div class="main">
+		<div class="text">
+			<h2>Nayeem's</h2>
+		</div>
+		<form class="btn-frm">
+			<input type="text" id="panel" class="show-area" disabled  placeholder="0">
+          <div class="digit-btn">     
+          <input type="button" name="btn9" class="cal" value="9" onclick="store(btn9.value);"></input>
+          <input type="button" name="btn8" class="cal" value="8" onclick="store(btn8.value);"></input>
+          <input type="button" name="btn7" class="cal" value="7" onclick="store(btn7.value);"></input>
+          <input type="button" name="btnplus" class="cal" value="+" onclick="store(btnplus.value);"></input>
+
+          <input type="button" name="btn6" class="cal" value="6" onclick="store(btn6.value);"></input>
+          <input type="button" name="btn5" class="cal" value="5" onclick="store(btn5.value);"></input>
+          <input type="button" name="btn4" class="cal" value="4" onclick="store(btn4.value);"></input>
+          <input type="button" name="btnminus" class="cal" value="-" onclick="store(btnminus.value);"></input>
+
+          <input type="button" name="btn3" class="cal" value="3" onclick="store(btn3.value);"></input>
+          <input type="button" name="btn2" class="cal" value="2" onclick="store(btn2.value);"></input>
+          <input type="button" name="btn1" class="cal" value="1" onclick="store(btn1.value);"></input>
+          <input type="button" name="btngun" class="cal" value="*" onclick="store(btngun.value);"></input>
+
+          <input type="button" name="btnzero" class="cal" value="0" onclick="store(btnzero.value);"></input>
+          <input type="button" name="btndot" class="cal" value="." onclick="store(btndot.value);"></input>
+          <input type="button" name="btnmodi" class="cal" value="%" onclick="store(btnmodi.value);"></input>
+          <input type="button" name="btnvag" class="cal" value="/" onclick="store(btnvag.value);"></input>
+
+          <input type="button" name="btnback" class="call" value="BACK" onclick="back();"></input>
+          <input type="button" name="btneq" class="call" value="=" onclick="calculate(panel.value);"></input>
+          <input type="button" name="btncle" class="call" value="CLEAR" onclick="clr();"></input>
+
+          </div>
+
+		</form>
+          <div class="sml-img">
+               <div class="sml-img-left">
+                    <img src="img/11.png">
+               </div>
+               <div class="sml-img-right">
+                    <img src="img/22.png">
+               </div>
+          </div>
+		
+	</div>
+ <footer class="cal-footer">
+      <div class="cal-footer-txt">
+           <h1>Thank You</h1>
+           <div class="cal-footer-link">
+                <a href="https://www.facebook.com/abunayeem101"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/abu_nayeem20"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/abu-nayeem/"><i class="fab fa-linkedin-in"></i></a>
+           </div>
+
+      </div>
+ </footer>
+  <!--=======Font Awesome========-->
+
+<script src="https://kit.fontawesome.com/20572c93fb.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="calculate.js"></script>
+</body>
+</html>
